@@ -1,7 +1,7 @@
 a=10
 b=10
-CanID=100
-CanData="  99 99" #can to seatch with spaces | also double space at start "optional"
+CanID=100 #Can ID goes here
+CanData="  99 99" #can to search with spaces | also double space at start "optional"
 CanToSend="vcan0 100#0000000000000000"
 
 while [ $a = $b ] 
